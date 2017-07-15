@@ -1,0 +1,19 @@
+name: jihantoro-cr-mysql
+version: 0.1.0
+
+authors:
+  - Rubi Jihantoro <jihantoro8@gmail.com>
+
+dependencies:
+  db:
+    github: crystal-lang/crystal-db
+  mysql:
+    github: crystal-lang/crystal-mysql
+
+targets:
+  jihantoro-cr-mysql:
+    main: src/jihantoro-cr-mysql.cr
+
+crystal: 0.23.0
+
+license: MIT
